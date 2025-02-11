@@ -23,7 +23,7 @@ def resize_image(image, width=None, height=None):
     return resized
 
 # Load the template and uploaded images
-template_image = cv2.imread(r'C:\Users\uSer\Desktop\SmartKYC\Template Matching\temp1.jpg', cv2.IMREAD_GRAYSCALE)
+template_image = cv2.imread(r'C:\Users\uSer\Desktop\SmartKYC\Template Matching\template.jpg', cv2.IMREAD_GRAYSCALE)
 uploaded_image = cv2.imread(r'C:\Users\uSer\Desktop\SmartKYC\Template Matching\uploaded_document.jpg', cv2.IMREAD_GRAYSCALE)
 
 # Initialize ORB detector

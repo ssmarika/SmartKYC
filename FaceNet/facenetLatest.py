@@ -61,7 +61,7 @@ def verify_faces(embedding1, embedding2, threshold=0.6):
 
 # Input images
 image1 = r'C:\Users\uSer\Desktop\SmartKYC\FaceNet\img1.jpg'  # Replace with path to first image
-image2 = r'C:\Users\uSer\Desktop\SmartKYC\FaceNet\img2.jpg'  # Replace with path to second image
+image2 = r'C:\Users\uSer\Desktop\SmartKYC\FaceNet\img4.jpg'  # Replace with path to second image
 
 try:
     # Get embeddings
